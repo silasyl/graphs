@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4ac30ec0b3ab146532f56b0c00565896 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4ac30ec0b3ab146532f56b0c00565896" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4ac30ec0b3ab146532f56b0c00565896 = L.map(
+                "map_4ac30ec0b3ab146532f56b0c00565896",
+                {
+                    center: [-19.89, -43.9378],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1b932124ea3b8d659c25f2f6e4a281cd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1b932124ea3b8d659c25f2f6e4a281cd.addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var marker_957a732920ef4a448cbb07b2a05d3bc2 = L.marker(
+                [-19.912486552426145, -43.895051821300115],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_1d896d0bf5f815ae0019503622faf5db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_957a732920ef4a448cbb07b2a05d3bc2.setIcon(icon_1d896d0bf5f815ae0019503622faf5db);
+        
+    
+        var popup_a12f260523fd7416813c0332584a62c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_502fd3b529d20b4fb3f3f5954e10364a = $(`<div id="html_502fd3b529d20b4fb3f3f5954e10364a" style="width: 100.0%; height: 100.0%;">Alto Vera Cruz (neighbor)</div>`)[0];
+                popup_a12f260523fd7416813c0332584a62c2.setContent(html_502fd3b529d20b4fb3f3f5954e10364a);
+            
+        
+
+        marker_957a732920ef4a448cbb07b2a05d3bc2.bindPopup(popup_a12f260523fd7416813c0332584a62c2)
+        ;
+
+        
+    
+    
+            var marker_868416516f6ffc98460c5a88bffe0506 = L.marker(
+                [-19.986817003521153, -43.999637768989906],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_e064f2ae259b0cde92602c365ef0d04b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_868416516f6ffc98460c5a88bffe0506.setIcon(icon_e064f2ae259b0cde92602c365ef0d04b);
+        
+    
+        var popup_0d1f37319b02d362b3f557581beae4aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82c71d46c51c7813c8f8ebd36ad6bd74 = $(`<div id="html_82c71d46c51c7813c8f8ebd36ad6bd74" style="width: 100.0%; height: 100.0%;">Araguaia (neighbor)</div>`)[0];
+                popup_0d1f37319b02d362b3f557581beae4aa.setContent(html_82c71d46c51c7813c8f8ebd36ad6bd74);
+            
+        
+
+        marker_868416516f6ffc98460c5a88bffe0506.bindPopup(popup_0d1f37319b02d362b3f557581beae4aa)
+        ;
+
+        
+    
+    
+            var marker_1d3365bca36ae14e475838e927dbf2ba = L.marker(
+                [-19.893593751537825, -43.903474321225666],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_067d90c811c80813cf15ca6b6a553fb2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1d3365bca36ae14e475838e927dbf2ba.setIcon(icon_067d90c811c80813cf15ca6b6a553fb2);
+        
+    
+        var popup_7c91b910c0b5876d97d3727dd40e7ced = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_219f3d5d41375412d6b5fa4870bf1a23 = $(`<div id="html_219f3d5d41375412d6b5fa4870bf1a23" style="width: 100.0%; height: 100.0%;">Boa Vista (neighbor)</div>`)[0];
+                popup_7c91b910c0b5876d97d3727dd40e7ced.setContent(html_219f3d5d41375412d6b5fa4870bf1a23);
+            
+        
+
+        marker_1d3365bca36ae14e475838e927dbf2ba.bindPopup(popup_7c91b910c0b5876d97d3727dd40e7ced)
+        ;
+
+        
+    
+    
+            var marker_034d61c3f92c5020ff759bc1d63caacc = L.marker(
+                [-19.9757157508972, -43.96854469783827],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_3695fce13ce78c6583a12b6b1217ec66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_034d61c3f92c5020ff759bc1d63caacc.setIcon(icon_3695fce13ce78c6583a12b6b1217ec66);
+        
+    
+        var popup_2566dd736453a1d753a22f50e7c6bd21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3df06685b8f10a26e70472ca67cfa19 = $(`<div id="html_b3df06685b8f10a26e70472ca67cfa19" style="width: 100.0%; height: 100.0%;">Buritis (neighbor)</div>`)[0];
+                popup_2566dd736453a1d753a22f50e7c6bd21.setContent(html_b3df06685b8f10a26e70472ca67cfa19);
+            
+        
+
+        marker_034d61c3f92c5020ff759bc1d63caacc.bindPopup(popup_2566dd736453a1d753a22f50e7c6bd21)
+        ;
+
+        
+    
+    
+            var marker_2a8853bb0c9427cc5fbee91677166002 = L.marker(
+                [-19.94609595026357, -43.99862525184168],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_8ba61ee14aceeadaf249c0f0be7a58f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a8853bb0c9427cc5fbee91677166002.setIcon(icon_8ba61ee14aceeadaf249c0f0be7a58f3);
+        
+    
+        var popup_e213249e04ffd96b1de1cd0bd2036fe0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64da764e0aa7117d44223423893101c6 = $(`<div id="html_64da764e0aa7117d44223423893101c6" style="width: 100.0%; height: 100.0%;">Cabana do Pai Tomás (neighbor)</div>`)[0];
+                popup_e213249e04ffd96b1de1cd0bd2036fe0.setContent(html_64da764e0aa7117d44223423893101c6);
+            
+        
+
+        marker_2a8853bb0c9427cc5fbee91677166002.bindPopup(popup_e213249e04ffd96b1de1cd0bd2036fe0)
+        ;
+
+        
+    
+    
+            var marker_319b0b982d2452cd45932d922ce4e1b7 = L.marker(
+                [-19.821108569017575, -43.99974967353488],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_73c24a0589dc74d33f785cbe85560c1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_319b0b982d2452cd45932d922ce4e1b7.setIcon(icon_73c24a0589dc74d33f785cbe85560c1d);
+        
+    
+        var popup_9613b9acd4ee1d191e2e4ec67722c4f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f5384c512395b1ced3b8a2f7b6dfda6 = $(`<div id="html_6f5384c512395b1ced3b8a2f7b6dfda6" style="width: 100.0%; height: 100.0%;">Céu Azul (neighbor)</div>`)[0];
+                popup_9613b9acd4ee1d191e2e4ec67722c4f6.setContent(html_6f5384c512395b1ced3b8a2f7b6dfda6);
+            
+        
+
+        marker_319b0b982d2452cd45932d922ce4e1b7.bindPopup(popup_9613b9acd4ee1d191e2e4ec67722c4f6)
+        ;
+
+        
+    
+    
+            var marker_2149f29dc3b1af94960052414fe0c6a4 = L.marker(
+                [-19.902426290292542, -44.006778062947504],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_41c8b97364edb12dee7ad5d55ae5ae6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2149f29dc3b1af94960052414fe0c6a4.setIcon(icon_41c8b97364edb12dee7ad5d55ae5ae6e);
+        
+    
+        var popup_b1ded06e97c33b1ece395afa3a4b620f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27f158aad1c042763bb8c0f574393320 = $(`<div id="html_27f158aad1c042763bb8c0f574393320" style="width: 100.0%; height: 100.0%;">Glória (neighbor)</div>`)[0];
+                popup_b1ded06e97c33b1ece395afa3a4b620f.setContent(html_27f158aad1c042763bb8c0f574393320);
+            
+        
+
+        marker_2149f29dc3b1af94960052414fe0c6a4.bindPopup(popup_b1ded06e97c33b1ece395afa3a4b620f)
+        ;
+
+        
+    
+    
+            var marker_956a06fcad0503acb8aeb39720ff0130 = L.marker(
+                [-19.865706580027556, -43.90038383436254],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_7db0f5af1b2b95a0ee321d6fc72b1e21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_956a06fcad0503acb8aeb39720ff0130.setIcon(icon_7db0f5af1b2b95a0ee321d6fc72b1e21);
+        
+    
+        var popup_89e2fa28305b4315ccdc6e0adba70341 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38771b4c55371e1ec6e8fe35a4327ecc = $(`<div id="html_38771b4c55371e1ec6e8fe35a4327ecc" style="width: 100.0%; height: 100.0%;">Goiânia (neighbor)</div>`)[0];
+                popup_89e2fa28305b4315ccdc6e0adba70341.setContent(html_38771b4c55371e1ec6e8fe35a4327ecc);
+            
+        
+
+        marker_956a06fcad0503acb8aeb39720ff0130.bindPopup(popup_89e2fa28305b4315ccdc6e0adba70341)
+        ;
+
+        
+    
+    
+            var marker_e327e714913a10358958cc8026706b9e = L.marker(
+                [-19.93593733274721, -43.95940590733803],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_4d76abdb775031020cc44b6ebfbfd8f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e327e714913a10358958cc8026706b9e.setIcon(icon_4d76abdb775031020cc44b6ebfbfd8f8);
+        
+    
+        var popup_904116201de02a80fc193c4eb5f63655 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cf61d0878c4e01de0a7eb41f6f73ef8 = $(`<div id="html_3cf61d0878c4e01de0a7eb41f6f73ef8" style="width: 100.0%; height: 100.0%;">Gutierrez (neighbor)</div>`)[0];
+                popup_904116201de02a80fc193c4eb5f63655.setContent(html_3cf61d0878c4e01de0a7eb41f6f73ef8);
+            
+        
+
+        marker_e327e714913a10358958cc8026706b9e.bindPopup(popup_904116201de02a80fc193c4eb5f63655)
+        ;
+
+        
+    
+    
+            var marker_51f201890092327714e1e01f235e12be = L.marker(
+                [-19.801704626391945, -43.937097641765796],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_c878411c78461bf9b833d39f1273a0f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_51f201890092327714e1e01f235e12be.setIcon(icon_c878411c78461bf9b833d39f1273a0f1);
+        
+    
+        var popup_3bad9f407905954d70bcbbd59385ad5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a19b9f48b7b367277d7a41b0f5c11f03 = $(`<div id="html_a19b9f48b7b367277d7a41b0f5c11f03" style="width: 100.0%; height: 100.0%;">Jaqueline (neighbor)</div>`)[0];
+                popup_3bad9f407905954d70bcbbd59385ad5e.setContent(html_a19b9f48b7b367277d7a41b0f5c11f03);
+            
+        
+
+        marker_51f201890092327714e1e01f235e12be.bindPopup(popup_3bad9f407905954d70bcbbd59385ad5e)
+        ;
+
+        
+    
+    
+            var marker_04624be14d0e4c61d4af0c0e22ad8419 = L.marker(
+                [-19.79209029666887, -43.97225029778823],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_90b3f30e086df7b99bcec14e4f6fc23e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_04624be14d0e4c61d4af0c0e22ad8419.setIcon(icon_90b3f30e086df7b99bcec14e4f6fc23e);
+        
+    
+        var popup_e196ecabd9cc835f1da3b321fd126aa5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3b6a356f9a2ad42d7e01a24e22f2885 = $(`<div id="html_d3b6a356f9a2ad42d7e01a24e22f2885" style="width: 100.0%; height: 100.0%;">Jardim dos Comerciários (neighbor)</div>`)[0];
+                popup_e196ecabd9cc835f1da3b321fd126aa5.setContent(html_d3b6a356f9a2ad42d7e01a24e22f2885);
+            
+        
+
+        marker_04624be14d0e4c61d4af0c0e22ad8419.bindPopup(popup_e196ecabd9cc835f1da3b321fd126aa5)
+        ;
+
+        
+    
+    
+            var marker_4efebe7c2295d0b90cbf4271d329fd1b = L.marker(
+                [-19.999884079634246, -44.01480463901949],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_22757bebb49442d2b8e014d5512a2e3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4efebe7c2295d0b90cbf4271d329fd1b.setIcon(icon_22757bebb49442d2b8e014d5512a2e3d);
+        
+    
+        var popup_91434796cb694bd92c310073091a8162 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9de43a457c61957085a94e19cbb72f5d = $(`<div id="html_9de43a457c61957085a94e19cbb72f5d" style="width: 100.0%; height: 100.0%;">Lindéia (neighbor)</div>`)[0];
+                popup_91434796cb694bd92c310073091a8162.setContent(html_9de43a457c61957085a94e19cbb72f5d);
+            
+        
+
+        marker_4efebe7c2295d0b90cbf4271d329fd1b.bindPopup(popup_91434796cb694bd92c310073091a8162)
+        ;
+
+        
+    
+    
+            var marker_a691b6bd403965fe15390e9ee0a5d76f = L.marker(
+                [-19.981846806822173, -43.998965948896235],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_7864e8ec96b10e2d21dadc3e5e3849e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a691b6bd403965fe15390e9ee0a5d76f.setIcon(icon_7864e8ec96b10e2d21dadc3e5e3849e5);
+        
+    
+        var popup_e06991cd66472da58b2ff7fd18fbb727 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e726b6031124533566673e95b2eb66b = $(`<div id="html_6e726b6031124533566673e95b2eb66b" style="width: 100.0%; height: 100.0%;">Milionários (neighbor)</div>`)[0];
+                popup_e06991cd66472da58b2ff7fd18fbb727.setContent(html_6e726b6031124533566673e95b2eb66b);
+            
+        
+
+        marker_a691b6bd403965fe15390e9ee0a5d76f.bindPopup(popup_e06991cd66472da58b2ff7fd18fbb727)
+        ;
+
+        
+    
+    
+            var marker_1b8bb39cecebf1db1211c28f81c46c7b = L.marker(
+                [-19.916227876732798, -43.9804528571024],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_21ffa9b57039c5c6729c90f924b6e377 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1b8bb39cecebf1db1211c28f81c46c7b.setIcon(icon_21ffa9b57039c5c6729c90f924b6e377);
+        
+    
+        var popup_c72e69c15cd3c4884c777fede575939d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa8017a9c445ab11d99e288d7a6aa0c5 = $(`<div id="html_aa8017a9c445ab11d99e288d7a6aa0c5" style="width: 100.0%; height: 100.0%;">Padre Eustáquio (neighbor)</div>`)[0];
+                popup_c72e69c15cd3c4884c777fede575939d.setContent(html_aa8017a9c445ab11d99e288d7a6aa0c5);
+            
+        
+
+        marker_1b8bb39cecebf1db1211c28f81c46c7b.bindPopup(popup_c72e69c15cd3c4884c777fede575939d)
+        ;
+
+        
+    
+    
+            var marker_21a6c7ada673da3f1168c69a3ed45962 = L.marker(
+                [-19.912074533175456, -44.02186381725475],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_b442be380b9dfe097731b10a175c48b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_21a6c7ada673da3f1168c69a3ed45962.setIcon(icon_b442be380b9dfe097731b10a175c48b6);
+        
+    
+        var popup_8861181fbe19e0dfc715d2eb6d9553bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47af13ccc12700dfe30dd86176afe52a = $(`<div id="html_47af13ccc12700dfe30dd86176afe52a" style="width: 100.0%; height: 100.0%;">Pindorama (neighbor)</div>`)[0];
+                popup_8861181fbe19e0dfc715d2eb6d9553bc.setContent(html_47af13ccc12700dfe30dd86176afe52a);
+            
+        
+
+        marker_21a6c7ada673da3f1168c69a3ed45962.bindPopup(popup_8861181fbe19e0dfc715d2eb6d9553bc)
+        ;
+
+        
+    
+    
+            var marker_bb4310bd19169d308c6b4f4a6836513d = L.marker(
+                [-19.836205542522702, -43.94746814115291],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_be8e5ff2c6cf698ef90d2f28d34e5618 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bb4310bd19169d308c6b4f4a6836513d.setIcon(icon_be8e5ff2c6cf698ef90d2f28d34e5618);
+        
+    
+        var popup_e3830eadf7021e8058081aaf9c58835d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89d59574aab3af8fef58d55adbe42c7a = $(`<div id="html_89d59574aab3af8fef58d55adbe42c7a" style="width: 100.0%; height: 100.0%;">Planalto (neighbor)</div>`)[0];
+                popup_e3830eadf7021e8058081aaf9c58835d.setContent(html_89d59574aab3af8fef58d55adbe42c7a);
+            
+        
+
+        marker_bb4310bd19169d308c6b4f4a6836513d.bindPopup(popup_e3830eadf7021e8058081aaf9c58835d)
+        ;
+
+        
+    
+    
+            var marker_a1c7f0b41b24285bd802d0fb9b72beb5 = L.marker(
+                [-19.832529044835848, -43.89702081076498],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_6715ec4d1dfb59f45864a9c4dc99cd6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a1c7f0b41b24285bd802d0fb9b72beb5.setIcon(icon_6715ec4d1dfb59f45864a9c4dc99cd6b);
+        
+    
+        var popup_205647d9bc40a021d9ddb4ce629ef2bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6b82467d80105ad312629f620441f34 = $(`<div id="html_e6b82467d80105ad312629f620441f34" style="width: 100.0%; height: 100.0%;">Ribeiro de Abreu (neighbor)</div>`)[0];
+                popup_205647d9bc40a021d9ddb4ce629ef2bb.setContent(html_e6b82467d80105ad312629f620441f34);
+            
+        
+
+        marker_a1c7f0b41b24285bd802d0fb9b72beb5.bindPopup(popup_205647d9bc40a021d9ddb4ce629ef2bb)
+        ;
+
+        
+    
+    
+            var marker_0e6bb92dd8f39b8036f6f0d0b5df0250 = L.marker(
+                [-19.906833551976593, -43.92461178729036],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_15e76c6d18370445473047c599a2fff0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0e6bb92dd8f39b8036f6f0d0b5df0250.setIcon(icon_15e76c6d18370445473047c599a2fff0);
+        
+    
+        var popup_8661c3431dbb400e3b1535ee5ac94e9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d7590399e6eddc5194c65c2f9f43a9e = $(`<div id="html_9d7590399e6eddc5194c65c2f9f43a9e" style="width: 100.0%; height: 100.0%;">Sagrada Família (neighbor)</div>`)[0];
+                popup_8661c3431dbb400e3b1535ee5ac94e9d.setContent(html_9d7590399e6eddc5194c65c2f9f43a9e);
+            
+        
+
+        marker_0e6bb92dd8f39b8036f6f0d0b5df0250.bindPopup(popup_8661c3431dbb400e3b1535ee5ac94e9d)
+        ;
+
+        
+    
+    
+            var marker_3f03e6029d645b3d059a83215f628a65 = L.marker(
+                [-19.839417341474412, -43.97776256796706],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_b7bb53846f175fc0f90adf76353846d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f03e6029d645b3d059a83215f628a65.setIcon(icon_b7bb53846f175fc0f90adf76353846d7);
+        
+    
+        var popup_40388ff8aa6e99e3f13f33778be001dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80d3b253a9d2efcc34865b080239ad3e = $(`<div id="html_80d3b253a9d2efcc34865b080239ad3e" style="width: 100.0%; height: 100.0%;">Santa Amélia (neighbor)</div>`)[0];
+                popup_40388ff8aa6e99e3f13f33778be001dd.setContent(html_80d3b253a9d2efcc34865b080239ad3e);
+            
+        
+
+        marker_3f03e6029d645b3d059a83215f628a65.bindPopup(popup_40388ff8aa6e99e3f13f33778be001dd)
+        ;
+
+        
+    
+    
+            var marker_3e8452a7349ba9f2cf3948dc7e30c39a = L.marker(
+                [-19.879447068712132, -43.94047961363021],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_8fe89b698c8c1776501a72150d4c01b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3e8452a7349ba9f2cf3948dc7e30c39a.setIcon(icon_8fe89b698c8c1776501a72150d4c01b2);
+        
+    
+        var popup_718dabb339df09ea86b9c3a512508eb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf4b3e10fe3771ecb2892bdfb943522a = $(`<div id="html_cf4b3e10fe3771ecb2892bdfb943522a" style="width: 100.0%; height: 100.0%;">Santa Cruz (neighbor)</div>`)[0];
+                popup_718dabb339df09ea86b9c3a512508eb7.setContent(html_cf4b3e10fe3771ecb2892bdfb943522a);
+            
+        
+
+        marker_3e8452a7349ba9f2cf3948dc7e30c39a.bindPopup(popup_718dabb339df09ea86b9c3a512508eb7)
+        ;
+
+        
+    
+    
+            var marker_9dc96b45c0dbc595b5e4cf53d95e524a = L.marker(
+                [-19.826056046035657, -43.97686108495729],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_c322d1572bcd0b865856544e00080cc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9dc96b45c0dbc595b5e4cf53d95e524a.setIcon(icon_c322d1572bcd0b865856544e00080cc4);
+        
+    
+        var popup_ac5c53ace3e6c01792ca3c91a3a82bf6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84f87d4a1f7efc61c9abde0f75442efc = $(`<div id="html_84f87d4a1f7efc61c9abde0f75442efc" style="width: 100.0%; height: 100.0%;">Santa Mônica (neighbor)</div>`)[0];
+                popup_ac5c53ace3e6c01792ca3c91a3a82bf6.setContent(html_84f87d4a1f7efc61c9abde0f75442efc);
+            
+        
+
+        marker_9dc96b45c0dbc595b5e4cf53d95e524a.bindPopup(popup_ac5c53ace3e6c01792ca3c91a3a82bf6)
+        ;
+
+        
+    
+    
+            var marker_41890225a68e4f250aeac6bf588ff3fa = L.marker(
+                [-19.945012762150608, -43.94437797642231],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_3908117da86e3cc615716fb302f61487 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_41890225a68e4f250aeac6bf588ff3fa.setIcon(icon_3908117da86e3cc615716fb302f61487);
+        
+    
+        var popup_0f61912f51a6971af4354627acef89c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85163c4659f1d2c1326195348679d0cb = $(`<div id="html_85163c4659f1d2c1326195348679d0cb" style="width: 100.0%; height: 100.0%;">Santo Antônio (neighbor)</div>`)[0];
+                popup_0f61912f51a6971af4354627acef89c6.setContent(html_85163c4659f1d2c1326195348679d0cb);
+            
+        
+
+        marker_41890225a68e4f250aeac6bf588ff3fa.bindPopup(popup_0f61912f51a6971af4354627acef89c6)
+        ;
+
+        
+    
+    
+            var marker_b177652d4d084a6e0b62cbd1bba1de33 = L.marker(
+                [-19.939021941972047, -43.919963090791754],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_75a1e8b846feeb5188b0931dae47d9a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b177652d4d084a6e0b62cbd1bba1de33.setIcon(icon_75a1e8b846feeb5188b0931dae47d9a5);
+        
+    
+        var popup_05b437d90e2d18c67d467049392c5189 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49f8335b106d5289d770c2931682c1a9 = $(`<div id="html_49f8335b106d5289d770c2931682c1a9" style="width: 100.0%; height: 100.0%;">Serra (neighbor)</div>`)[0];
+                popup_05b437d90e2d18c67d467049392c5189.setContent(html_49f8335b106d5289d770c2931682c1a9);
+            
+        
+
+        marker_b177652d4d084a6e0b62cbd1bba1de33.bindPopup(popup_05b437d90e2d18c67d467049392c5189)
+        ;
+
+        
+    
+    
+            var marker_8613723de64d81ec13239e634a577493 = L.marker(
+                [-19.952970746684745, -43.93412890348227],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_cf096824b54d4e5c81aa81c83ce926c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8613723de64d81ec13239e634a577493.setIcon(icon_cf096824b54d4e5c81aa81c83ce926c6);
+        
+    
+        var popup_ce8f2da57badb0448b69c98559365c4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12a62efc6fa31214f8dace5e25cb31b8 = $(`<div id="html_12a62efc6fa31214f8dace5e25cb31b8" style="width: 100.0%; height: 100.0%;">Sion (neighbor)</div>`)[0];
+                popup_ce8f2da57badb0448b69c98559365c4c.setContent(html_12a62efc6fa31214f8dace5e25cb31b8);
+            
+        
+
+        marker_8613723de64d81ec13239e634a577493.bindPopup(popup_ce8f2da57badb0448b69c98559365c4c)
+        ;
+
+        
+    
+    
+            var marker_4002a04c79ffcee1f84fadbd0afbf7d0 = L.marker(
+                [-19.913731745996305, -43.95404260127084],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_7787575646f87221b50817264a8dc9be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4002a04c79ffcee1f84fadbd0afbf7d0.setIcon(icon_7787575646f87221b50817264a8dc9be);
+        
+    
+        var popup_872de8e79f47bcb85b61aebb0deb4bbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfa84173fced49744e8adf9d389fa800 = $(`<div id="html_bfa84173fced49744e8adf9d389fa800" style="width: 100.0%; height: 100.0%;">CDD Norte (PDC)</div>`)[0];
+                popup_872de8e79f47bcb85b61aebb0deb4bbe.setContent(html_bfa84173fced49744e8adf9d389fa800);
+            
+        
+
+        marker_4002a04c79ffcee1f84fadbd0afbf7d0.bindPopup(popup_872de8e79f47bcb85b61aebb0deb4bbe)
+        ;
+
+        
+    
+    
+            var marker_71605440b8e9cdd155435a5869ef14aa = L.marker(
+                [-19.899583256261895, -43.927851760470254],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_2955275efc01096bf84264ed00f8de29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_71605440b8e9cdd155435a5869ef14aa.setIcon(icon_2955275efc01096bf84264ed00f8de29);
+        
+    
+        var popup_0aa40f09e605592f7142561b04c0ddc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a96a0f6f19ad223f00b3c714da4374dd = $(`<div id="html_a96a0f6f19ad223f00b3c714da4374dd" style="width: 100.0%; height: 100.0%;">CDD Sagrada Família (PDC)</div>`)[0];
+                popup_0aa40f09e605592f7142561b04c0ddc9.setContent(html_a96a0f6f19ad223f00b3c714da4374dd);
+            
+        
+
+        marker_71605440b8e9cdd155435a5869ef14aa.bindPopup(popup_0aa40f09e605592f7142561b04c0ddc9)
+        ;
+
+        
+    
+    
+            var marker_25d899859c4fe83da511631f9f563f0b = L.marker(
+                [-19.923935123175422, -43.93650484793886],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_758276836b4dd96cc7bea9e953c5df52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25d899859c4fe83da511631f9f563f0b.setIcon(icon_758276836b4dd96cc7bea9e953c5df52);
+        
+    
+        var popup_7440bf404966f3edbaf700c450f54b73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c4ce0b730fbc39059a9303c1903a3ad = $(`<div id="html_6c4ce0b730fbc39059a9303c1903a3ad" style="width: 100.0%; height: 100.0%;">CDD Barro Preto (PDC)</div>`)[0];
+                popup_7440bf404966f3edbaf700c450f54b73.setContent(html_6c4ce0b730fbc39059a9303c1903a3ad);
+            
+        
+
+        marker_25d899859c4fe83da511631f9f563f0b.bindPopup(popup_7440bf404966f3edbaf700c450f54b73)
+        ;
+
+        
+    
+    
+            var marker_33b9984175d5d7e335dce9da23bf89d1 = L.marker(
+                [-19.942961165436152, -43.93518854146686],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_174a5a108bf7fef639b4eea9efbe404b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_33b9984175d5d7e335dce9da23bf89d1.setIcon(icon_174a5a108bf7fef639b4eea9efbe404b);
+        
+    
+        var popup_a58682ff9543231027a02e25fa5472c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f621aff59eb51ca476f219442566f741 = $(`<div id="html_f621aff59eb51ca476f219442566f741" style="width: 100.0%; height: 100.0%;">CDD Sion (PDC)</div>`)[0];
+                popup_a58682ff9543231027a02e25fa5472c0.setContent(html_f621aff59eb51ca476f219442566f741);
+            
+        
+
+        marker_33b9984175d5d7e335dce9da23bf89d1.bindPopup(popup_a58682ff9543231027a02e25fa5472c0)
+        ;
+
+        
+    
+    
+            var marker_e6d6c7052e16b89b67dbdb38db4186fc = L.marker(
+                [-19.930233902242335, -43.970660837112966],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_aa34b02a9cdf7717eec52db858b01131 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e6d6c7052e16b89b67dbdb38db4186fc.setIcon(icon_aa34b02a9cdf7717eec52db858b01131);
+        
+    
+        var popup_1de69661f69faf5ada3e4dab9784e240 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_363f7fca6a7c46905c916fd7097e9642 = $(`<div id="html_363f7fca6a7c46905c916fd7097e9642" style="width: 100.0%; height: 100.0%;">CDD Oeste (PDC)</div>`)[0];
+                popup_1de69661f69faf5ada3e4dab9784e240.setContent(html_363f7fca6a7c46905c916fd7097e9642);
+            
+        
+
+        marker_e6d6c7052e16b89b67dbdb38db4186fc.bindPopup(popup_1de69661f69faf5ada3e4dab9784e240)
+        ;
+
+        
+    
+    
+            var marker_29a2069b1c95c99f0dbba7dcfd4f3b23 = L.marker(
+                [-19.93058959763426, -43.98169052336577],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_7f9539840102454bfdceb04850aab0d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_29a2069b1c95c99f0dbba7dcfd4f3b23.setIcon(icon_7f9539840102454bfdceb04850aab0d6);
+        
+    
+        var popup_8d1318af922af032ce9b1c2e4c5a9fd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bb76467f5fd91691dc480f930cd27ab = $(`<div id="html_7bb76467f5fd91691dc480f930cd27ab" style="width: 100.0%; height: 100.0%;">CDD Calafate (PDC)</div>`)[0];
+                popup_8d1318af922af032ce9b1c2e4c5a9fd8.setContent(html_7bb76467f5fd91691dc480f930cd27ab);
+            
+        
+
+        marker_29a2069b1c95c99f0dbba7dcfd4f3b23.bindPopup(popup_8d1318af922af032ce9b1c2e4c5a9fd8)
+        ;
+
+        
+    
+    
+            var marker_8ebb56fd9e2b8dcfa40de6d87d20cb06 = L.marker(
+                [-19.89884722095212, -43.933989780620394],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_c5d8b86af234575bbf11380865b5a3d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8ebb56fd9e2b8dcfa40de6d87d20cb06.setIcon(icon_c5d8b86af234575bbf11380865b5a3d4);
+        
+    
+        var popup_e68545907eaeba9f3af728352bb2ddab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ec0ca409571c89fefff165cc5a861d6 = $(`<div id="html_4ec0ca409571c89fefff165cc5a861d6" style="width: 100.0%; height: 100.0%;">CDD Leste (PDC)</div>`)[0];
+                popup_e68545907eaeba9f3af728352bb2ddab.setContent(html_4ec0ca409571c89fefff165cc5a861d6);
+            
+        
+
+        marker_8ebb56fd9e2b8dcfa40de6d87d20cb06.bindPopup(popup_e68545907eaeba9f3af728352bb2ddab)
+        ;
+
+        
+    
+    
+            var marker_dcfcf2481bb38934647e7bacb539b480 = L.marker(
+                [-19.843115734374965, -43.91891189084744],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_28d7efb56e3dba22e7d5e8f70d59617c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dcfcf2481bb38934647e7bacb539b480.setIcon(icon_28d7efb56e3dba22e7d5e8f70d59617c);
+        
+    
+        var popup_f1c67cc996a68f99d66085873d462c8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddc1c986f562f53f269329f019044e40 = $(`<div id="html_ddc1c986f562f53f269329f019044e40" style="width: 100.0%; height: 100.0%;">CDD Guarani (PDC)</div>`)[0];
+                popup_f1c67cc996a68f99d66085873d462c8c.setContent(html_ddc1c986f562f53f269329f019044e40);
+            
+        
+
+        marker_dcfcf2481bb38934647e7bacb539b480.bindPopup(popup_f1c67cc996a68f99d66085873d462c8c)
+        ;
+
+        
+    
+    
+            var marker_15bcab933a30f5aa2693bc972f68f890 = L.marker(
+                [-19.849934286440607, -43.96462229398078],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_f90a3dd57ccc69f38e7cae79d09345ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_15bcab933a30f5aa2693bc972f68f890.setIcon(icon_f90a3dd57ccc69f38e7cae79d09345ad);
+        
+    
+        var popup_31644002f5b006617f223e9bb1462b23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e26f5732c55d1f2c181c51b5972ed48d = $(`<div id="html_e26f5732c55d1f2c181c51b5972ed48d" style="width: 100.0%; height: 100.0%;">CDD Planalto (PDC)</div>`)[0];
+                popup_31644002f5b006617f223e9bb1462b23.setContent(html_e26f5732c55d1f2c181c51b5972ed48d);
+            
+        
+
+        marker_15bcab933a30f5aa2693bc972f68f890.bindPopup(popup_31644002f5b006617f223e9bb1462b23)
+        ;
+
+        
+    
+    
+            var marker_b70b4cfb835855054b767d327a882c18 = L.marker(
+                [-19.992613433799498, -44.043806613263676],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_3d63258754c9da1b602f6f918d7ea09a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b70b4cfb835855054b767d327a882c18.setIcon(icon_3d63258754c9da1b602f6f918d7ea09a);
+        
+    
+        var popup_8801cf8b55a38f461eb9aee8389a79fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0a88f868cbbba2c010ffc47bfe1581e = $(`<div id="html_a0a88f868cbbba2c010ffc47bfe1581e" style="width: 100.0%; height: 100.0%;">CDD Tirol (PDC)</div>`)[0];
+                popup_8801cf8b55a38f461eb9aee8389a79fd.setContent(html_a0a88f868cbbba2c010ffc47bfe1581e);
+            
+        
+
+        marker_b70b4cfb835855054b767d327a882c18.bindPopup(popup_8801cf8b55a38f461eb9aee8389a79fd)
+        ;
+
+        
+    
+    
+            var marker_6c51ce365c2c53ff34f27320031fcd98 = L.marker(
+                [-19.91498745282232, -43.9272427715508],
+                {}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            var icon_8a169c199276c77f05562c81de6696cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c51ce365c2c53ff34f27320031fcd98.setIcon(icon_8a169c199276c77f05562c81de6696cb);
+        
+    
+        var popup_ffa13a7fbda3bec4de52da717deaf791 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d567287ef448549ca93917b8408ebbc = $(`<div id="html_4d567287ef448549ca93917b8408ebbc" style="width: 100.0%; height: 100.0%;">CDD Floresta (PDC)</div>`)[0];
+                popup_ffa13a7fbda3bec4de52da717deaf791.setContent(html_4d567287ef448549ca93917b8408ebbc);
+            
+        
+
+        marker_6c51ce365c2c53ff34f27320031fcd98.bindPopup(popup_ffa13a7fbda3bec4de52da717deaf791)
+        ;
+
+        
+    
+    
+            var poly_line_1f5f21408226c3721aa1d7791fed0902 = L.polyline(
+                [[-19.912486552426145, -43.895051821300115], [-19.91498745282232, -43.9272427715508]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_1f5f21408226c3721aa1d7791fed0902.bindTooltip(
+                `<div>
+                     Alto Vera Cruz -> CDD Floresta (3.38 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_dadbc46a20593af18f2fd40121194caa = L.polyline(
+                [[-19.986817003521153, -43.999637768989906], [-19.992613433799498, -44.043806613263676]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_dadbc46a20593af18f2fd40121194caa.bindTooltip(
+                `<div>
+                     Araguaia -> CDD Tirol (4.67 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3e4df45c044226eb7db7b118e49aafde = L.polyline(
+                [[-19.893593751537825, -43.903474321225666], [-19.899583256261895, -43.927851760470254]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_3e4df45c044226eb7db7b118e49aafde.bindTooltip(
+                `<div>
+                     Boa Vista -> CDD Sagrada Família (2.64 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_be7371997fd9e0d322f96624d22b01d2 = L.polyline(
+                [[-19.9757157508972, -43.96854469783827], [-19.942961165436152, -43.93518854146686]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_be7371997fd9e0d322f96624d22b01d2.bindTooltip(
+                `<div>
+                     Buritis -> CDD Sion (5.03 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_885cb3de96016b5c8d3eded6dfb41e6c = L.polyline(
+                [[-19.94609595026357, -43.99862525184168], [-19.93058959763426, -43.98169052336577]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_885cb3de96016b5c8d3eded6dfb41e6c.bindTooltip(
+                `<div>
+                     Cabana do Pai Tomás -> CDD Calafate (2.47 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8a63d0715e5e5fb10b0ee41e2d033d82 = L.polyline(
+                [[-19.821108569017575, -43.99974967353488], [-19.849934286440607, -43.96462229398078]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_8a63d0715e5e5fb10b0ee41e2d033d82.bindTooltip(
+                `<div>
+                     Céu Azul -> CDD Planalto (4.87 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e7e8c47d2e03c5abb342c524c846ad35 = L.polyline(
+                [[-19.902426290292542, -44.006778062947504], [-19.93058959763426, -43.98169052336577]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_e7e8c47d2e03c5abb342c524c846ad35.bindTooltip(
+                `<div>
+                     Glória -> CDD Calafate (4.08 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b0a6883dac2edd37be57f3b2a370ccfb = L.polyline(
+                [[-19.865706580027556, -43.90038383436254], [-19.843115734374965, -43.91891189084744]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_b0a6883dac2edd37be57f3b2a370ccfb.bindTooltip(
+                `<div>
+                     Goiânia -> CDD Guarani (3.17 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_715beefb3e49e56a5dff3ff8e162a1c3 = L.polyline(
+                [[-19.93593733274721, -43.95940590733803], [-19.930233902242335, -43.970660837112966]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_715beefb3e49e56a5dff3ff8e162a1c3.bindTooltip(
+                `<div>
+                     Gutierrez -> CDD Oeste (1.34 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_047ef98943985e59795d317d6ab79947 = L.polyline(
+                [[-19.801704626391945, -43.937097641765796], [-19.843115734374965, -43.91891189084744]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_047ef98943985e59795d317d6ab79947.bindTooltip(
+                `<div>
+                     Jaqueline -> CDD Guarani (4.96 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a55b75257f553b2f94f940e0571a92f4 = L.polyline(
+                [[-19.79209029666887, -43.97225029778823], [-19.849934286440607, -43.96462229398078]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_a55b75257f553b2f94f940e0571a92f4.bindTooltip(
+                `<div>
+                     Jardim dos Comerciários -> CDD Planalto (6.45 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b137b577b5f3d6fb0e9fd259a1141157 = L.polyline(
+                [[-19.999884079634246, -44.01480463901949], [-19.992613433799498, -44.043806613263676]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_b137b577b5f3d6fb0e9fd259a1141157.bindTooltip(
+                `<div>
+                     Lindéia -> CDD Tirol (3.14 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_041507dc4ca0baf85a22b97b4cbac15e = L.polyline(
+                [[-19.981846806822173, -43.998965948896235], [-19.992613433799498, -44.043806613263676]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_041507dc4ca0baf85a22b97b4cbac15e.bindTooltip(
+                `<div>
+                     Milionários -> CDD Tirol (4.84 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a6020e59edd6c8261c9667e7a82e597b = L.polyline(
+                [[-19.916227876732798, -43.9804528571024], [-19.93058959763426, -43.98169052336577]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_a6020e59edd6c8261c9667e7a82e597b.bindTooltip(
+                `<div>
+                     Padre Eustáquio -> CDD Calafate (1.60 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_786a8fcd6a41b7214b7cb3697e9e65a1 = L.polyline(
+                [[-19.912074533175456, -44.02186381725475], [-19.93058959763426, -43.98169052336577]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_786a8fcd6a41b7214b7cb3697e9e65a1.bindTooltip(
+                `<div>
+                     Pindorama -> CDD Calafate (4.68 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_54982c6d0f369fe3e399dca10892e5a4 = L.polyline(
+                [[-19.836205542522702, -43.94746814115291], [-19.849934286440607, -43.96462229398078]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_54982c6d0f369fe3e399dca10892e5a4.bindTooltip(
+                `<div>
+                     Planalto -> CDD Planalto (2.35 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1b9107840ffb3a6d594c143ff9cc10df = L.polyline(
+                [[-19.832529044835848, -43.89702081076498], [-19.843115734374965, -43.91891189084744]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_1b9107840ffb3a6d594c143ff9cc10df.bindTooltip(
+                `<div>
+                     Ribeiro de Abreu -> CDD Guarani (2.58 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c66c63dfe758167f4502d9b188e909c5 = L.polyline(
+                [[-19.906833551976593, -43.92461178729036], [-19.899583256261895, -43.927851760470254]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_c66c63dfe758167f4502d9b188e909c5.bindTooltip(
+                `<div>
+                     Sagrada Família -> CDD Sagrada Família (0.87 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_13f175a9c0cf3e5d8b9fad81ba6fc108 = L.polyline(
+                [[-19.839417341474412, -43.97776256796706], [-19.849934286440607, -43.96462229398078]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_13f175a9c0cf3e5d8b9fad81ba6fc108.bindTooltip(
+                `<div>
+                     Santa Amélia -> CDD Planalto (1.80 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2001230b2dacb2e3b8f615ffcd3204ae = L.polyline(
+                [[-19.879447068712132, -43.94047961363021], [-19.89884722095212, -43.933989780620394]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_2001230b2dacb2e3b8f615ffcd3204ae.bindTooltip(
+                `<div>
+                     Santa Cruz -> CDD Leste (2.25 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_dcdd17d97d27581f3a39ce3992aa827c = L.polyline(
+                [[-19.826056046035657, -43.97686108495729], [-19.849934286440607, -43.96462229398078]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_dcdd17d97d27581f3a39ce3992aa827c.bindTooltip(
+                `<div>
+                     Santa Mônica -> CDD Planalto (2.94 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_62c4fc03d52e0f4cae7b8c74e84304da = L.polyline(
+                [[-19.945012762150608, -43.94437797642231], [-19.942961165436152, -43.93518854146686]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_62c4fc03d52e0f4cae7b8c74e84304da.bindTooltip(
+                `<div>
+                     Santo Antônio -> CDD Sion (0.99 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_016749f082117e6d13375e7ab3a01a4e = L.polyline(
+                [[-19.939021941972047, -43.919963090791754], [-19.942961165436152, -43.93518854146686]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_016749f082117e6d13375e7ab3a01a4e.bindTooltip(
+                `<div>
+                     Serra -> CDD Sion (1.65 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2eac2b999cf7897cec28132fcb074bf1 = L.polyline(
+                [[-19.952970746684745, -43.93412890348227], [-19.942961165436152, -43.93518854146686]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4ac30ec0b3ab146532f56b0c00565896);
+        
+    
+            poly_line_2eac2b999cf7897cec28132fcb074bf1.bindTooltip(
+                `<div>
+                     Sion -> CDD Sion (1.11 km)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
